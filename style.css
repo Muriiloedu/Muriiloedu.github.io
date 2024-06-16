@@ -1,0 +1,118 @@
+/* Estilos gerais */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Cor de fundo clara, próxima ao vinho */
+}
+
+header {
+    background-color: #660033; /* Vinho escuro */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Estilos da seção "Sobre" */
+#sobre {
+    background-color: #f5f5f5; /* Cor clara para contraste */
+    padding: 40px 0;
+}
+
+#sobre img {
+    max-width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilos da seção "Projetos" */
+#projetos .grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.projeto {
+    border: 1px solid #ccc; /* Borda cinza */
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0; /* Cor de fundo clara */
+}
+
+.projeto img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.projeto a { /* Estilo específico para links dentro da seção "Projetos" */
+    color: blue; /* Azul */
+    text-decoration: none;
+}
+
+.projeto a:hover {
+    text-decoration: underline;
+    color: #007bff; /* Azul mais escuro para realçar */
+}
+/* Estilos da seção "Contato" */
+#contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato label {
+    margin-bottom: 5px;
+    color: #660033; /* Vinho escuro */
+}
+
+#contato input, #contato textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0; /* Cor de fundo clara */
+}
+
+#contato button {
+    padding: 10px;
+    background-color: #660033; /* Vinho escuro */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #660033; /* Vinho escuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para links */
+a {
+    color: #fff; /* Branco para contraste */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e6e6e6; /* Cinza claro para realçar */
+}
